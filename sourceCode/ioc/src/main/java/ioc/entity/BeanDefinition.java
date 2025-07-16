@@ -94,4 +94,8 @@ public class BeanDefinition {
     public void setPropertyValues(List<PropertyValue> propertyValues) {
         this.propertyValues = propertyValues;
     }
+
+    public void addPropertyValues(PropertyValue propertyValue){
+        this.propertyValues.add(propertyValue);
+    }
 }
